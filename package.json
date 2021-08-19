@@ -25,9 +25,9 @@
     "postcss-import": "^14.0.2",
     "posthtml-beautify": "^0.7.0",
     "posthtml-expressions": "^1.8.1",
-    "posthtml-include": "^1.7.1",
     "posthtml-inline-svg": "^0.2.0",
     "posthtml-load-config": "^2.0.0",
+    "posthtml-modules": "^0.7.4",
     "sass": "^1.38.0",
     "tailwindcss": "^2.2.7"
   }
