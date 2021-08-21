@@ -1,7 +1,7 @@
 module.exports = {
   plugins: {
     "posthtml-modules": {
-      root: "./",
+      root: "src",
       locals: { MODE: process.env.NODE_ENV },
     },
     "posthtml-inline-svg": {},
