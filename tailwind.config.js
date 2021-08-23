@@ -9,28 +9,20 @@ module.exports = {
       sans: ["Montserrat", "sans-serif"],
       serif: ["Montserrat", "serif"],
     },
-
-    screens: {
-      "3xl": { max: "1919px" },
-      "2xl": { max: "1535px" },
-      xl: { max: "1279px" },
-      lg: { max: "1023px" },
-      md: { max: "767px" },
-      sm: { max: "639px" },
-      xs: { max: "319px" },
-
-      "min-3xl": { min: "1919px" },
-      "min-2xl": { min: "1535px" },
-      "min-xl": { min: "1279px" },
-      "min-lg": { min: "1023px" },
-      "min-md": { min: "767px" },
-      "min-sm": { min: "639px" },
-      "min-xs": { min: "319px" },
-    },
     extend: {
       colors: {
-        primary: "#D4392A",
-        secondary: "#0F71B3",
+        primary: {
+          50: "#EFF6FF",
+          100: "#DBEAFE",
+          200: "#BFDBFE",
+          300: "#93C5FD",
+          400: "#60A5FA",
+          500: "#3B82F6",
+          600: "#2563EB",
+          700: "#1D4ED8",
+          800: "#1E40AF",
+          900: "#1E3A8A",
+        },
         gray: {
           50: "#f7f7f7",
           100: "#efefef",
