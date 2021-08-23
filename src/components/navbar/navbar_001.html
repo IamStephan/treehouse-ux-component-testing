@@ -15,7 +15,7 @@
         }
 
         .cta-container {
-          @apply flex flex-1 text-blue-900 justify-center items-center space-x-2;
+          @apply flex flex-1 text-primary-900 justify-center items-center space-x-2;
 
           .cta-icon {
             @apply w-5 h-5;
@@ -28,7 +28,7 @@
       }
 
       .banner {
-        @apply bg-blue-900 col-start-1 col-end-2 row-start-2 row-end-3 px-2 py-1;
+        @apply bg-primary-900 col-start-1 col-end-2 row-start-2 row-end-3 px-2 py-1;
 
         .banner-text {
           @apply line-clamp-1 text-white text-xs text-center italic font-light;
@@ -65,14 +65,14 @@
         @apply flex flex-col items-center space-y-2 text-gray-900;
 
         &.selected {
-          @apply relative text-blue-900;
+          @apply relative text-primary-900;
 
           .text {
             @apply relative;
 
             &::after {
               content: "";
-              @apply h-0.5 bg-blue-900 absolute -inset-x-0.5 -bottom-0.5;
+              @apply h-0.5 bg-primary-900 absolute -inset-x-0.5 -bottom-0.5;
             }
           }
         }
@@ -86,7 +86,7 @@
         }
 
         .support {
-          @apply bg-blue-500 shadow-md text-white rounded-full p-4 -m-0.5 block;
+          @apply bg-primary-500 shadow-md text-white rounded-full p-4 -m-0.5 block;
 
           .icon-support {
             @apply w-6 h-6;
